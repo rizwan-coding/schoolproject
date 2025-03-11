@@ -1,0 +1,20 @@
+
+/* admission form */
+CREATE TABLE admissions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_name VARCHAR(25),
+    age  varchar(25),
+    grade VARCHAR(10) ,
+    address varchar(50),
+    phone_number VARCHAR(15),
+    email VARCHAR(50) 
+);
+
+//login page
+
+CREATE TABLE stdLogin (
+
+    un VARCHAR(20),
+    pass VARCHAR(20) 
+);
+
